@@ -38,7 +38,7 @@ public class Utility {
 		Thread.sleep(5000);
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
-	/*	while(2>1)
+		while(2>1)
 		{
 			
 			try
@@ -59,7 +59,7 @@ public class Utility {
 				
 			}
 		}
-		*/
+	
 		
 		
 	WebElement f =	driver.findElement(By.xpath("(//div[@class='sc-gsTCUz bhdLno'])[1]/h3"));	
